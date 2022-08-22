@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>tide_prediction_locs.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>tide_prediction_locs</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-70.17879464654621,42.09827865159543,0 -70.10092248092475,42.08105297840604,0 -70.05083780122145,42.0604936282217,0 -70.01239376846983,42.02601104722612,0 -69.98917059946191,41.99419623776291,0 -69.9668734710975,41.96106954459676,0 -69.95084025255659,41.92662912282462,0 -69.93572011338924,41.88425747330653,0 -69.92151392586787,41.84652500172901,0 -69.91709629872508,41.81078559510066,0 -69.91091426541486,41.76776356577808,0 -69.90918029748387,41.72606190107396,0 -69.90744805884536,41.68435002796038,0 -69.91811311796906,41.65653687811353,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
