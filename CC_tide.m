@@ -34,7 +34,7 @@ lat2=41.893957;
 lon2=-69.959093;
 
 % specify times at 1-h intervals
-T=datenum(2019,10,1):1/24:datenum(2022,12,31);
+T=datenum(2006,1,1):1/24:datenum(2022,12,31);
 
 % get the tides at times T
 % this took about 3 minutes with my 4 Mbs internet
